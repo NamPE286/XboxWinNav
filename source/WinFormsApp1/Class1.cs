@@ -49,7 +49,7 @@ namespace XBoxAsMouse
 
 		public void Start(int clickInterval, int mouseSpeed, int scrollSpeed, int rRate)
 		{
-			interval = clickInterval;
+			interval = rRate - clickInterval;
 			MovementDivider = mouseSpeed;
 			ScrollDivider = scrollSpeed;
 			RefreshRate = rRate;

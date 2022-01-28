@@ -53,5 +53,15 @@ namespace WinFormsApp1
 
             inputMonitor.Start(a,b,c,d);
         }
+
+        private void label15_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            
+        }
     }
 }
